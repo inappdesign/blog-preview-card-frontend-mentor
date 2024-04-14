@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution on Frontend Mentor](https://your-solution-url.com)
+- Live Site URL: [Live version of my solution](https://blog-preview-card-frontend-mentor-lovat.vercel.app/)
 
 ## My process
 
@@ -36,11 +36,11 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I've done a few tutorials on CSS and I realise just how much I can forget until I am challenged to remember it. Specifically, I completely forgot about object-fit, which I needed to match the mobile figma design.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I look forward to my next Frontend Mentor challenge.
 
 ## Author
 
