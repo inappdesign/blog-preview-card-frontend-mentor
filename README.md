@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution on Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [My solution on Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-DkyeMdUNA2)
 - Live Site URL: [Live version of my solution](https://blog-preview-card-frontend-mentor-lovat.vercel.app/)
 
 ## My process
