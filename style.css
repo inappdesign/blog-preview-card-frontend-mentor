@@ -18,17 +18,22 @@
 html {
 	font-size: 62.5%;
 }
+
+img {
+	display: block;
+	max-width: 100%;
+}
 /* CSS reset end*/
 
 body {
 	font-family: "Figtree", sans-serif;
+	display: flex;
 	font-size: 1.6rem;
 	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-direction: column;
+	align-items: center;
 	background-color: var(--yellow);
+	overflow: hidden;
 }
 
 main {
@@ -37,29 +42,31 @@ main {
 	background-color: var(--white);
 	padding: 2.4rem 2.4rem 0;
 	width: 38.4rem;
-	height: 52.2rem;
+	min-height: 52.2rem;
 	border: 0.1rem solid var(--black);
 	border-radius: 2rem;
 	box-shadow: 0.8rem 0.8rem 0 0.1rem var(--black);
-	transition: all 0.3s;
+	margin: auto;
+	transition: box-shadow 0.3s;
+	position: relative;
 }
 
 main:hover {
 	box-shadow: 1.3rem 1.3rem 0 0.5rem var(--black);
 }
-main:hover h2 {
+main:hover h1 {
 	color: var(--yellow);
 }
 
-header img {
-	width: 33.6rem;
+.head-img {
+	/* min-width: 100%; */
 	height: 20rem;
 	border-radius: 1rem;
 	margin-bottom: 2rem;
 	object-fit: cover;
 }
 
-h1 {
+h2 {
 	background-color: var(--yellow);
 	display: inline-block;
 	width: 8.2rem;
@@ -73,7 +80,7 @@ h1 {
 	font-size: 1.4rem;
 }
 
-h2 {
+h1 {
 	font-size: 2.4rem;
 }
 
@@ -88,7 +95,7 @@ a:visited {
 	text-decoration: none;
 }
 
-.title h1 {
+.title h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -122,13 +129,15 @@ a:visited {
 }
 
 .attribution {
-	margin-top: -3rem;
-	display: flex;
+	min-width: 100%;
+	text-align: center;
 	font-size: 1rem;
+	position: absolute;
+	bottom: 0;
 }
 
 /* Media queries start */
-@media (max-width: 40rem) {
+@media (max-width: 25rem) {
 	body {
 		font-size: 1.4rem;
 	}
@@ -139,7 +148,7 @@ a:visited {
 	header img {
 		width: 27.9rem;
 	}
-	h1 {
+	h2 {
 		font-size: 1.2rem;
 		width: 7.3rem;
 		height: 2.6rem;
@@ -148,10 +157,13 @@ a:visited {
 		font-size: 1.2rem;
 	}
 
-	h2 {
+	h1 {
 		font-size: 2rem;
 	}
+}
+
+@media (max-height: 37.5rem) {
 	.attribution {
-		margin-top: -3.2rem;
+		display: none;
 	}
 }
