@@ -53,6 +53,7 @@ main {
 
 main:hover {
 	box-shadow: 1.3rem 1.3rem 0 0.5rem var(--black);
+	cursor: pointer;
 }
 main:hover h1 {
 	color: var(--yellow);
