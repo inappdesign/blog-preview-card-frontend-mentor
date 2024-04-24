@@ -66,7 +66,7 @@ main:hover h1 {
 	object-fit: cover;
 }
 
-h2 {
+.title h2 {
 	background-color: var(--yellow);
 	display: inline-block;
 	width: 8.2rem;
@@ -85,7 +85,7 @@ h1 {
 }
 
 h1,
-h2 {
+.title h2 {
 	font-weight: 800;
 	margin-bottom: 1.6rem;
 }
@@ -117,7 +117,7 @@ a:visited {
 	align-items: center;
 }
 
-.author h3 {
+.author h2 {
 	font-size: 1.4rem;
 	font-weight: 800;
 }
@@ -143,18 +143,15 @@ a:visited {
 	}
 	main {
 		width: 32.7rem;
-		height: 50.1rem;
+		min-height: 50.1rem;
 	}
 	header img {
 		width: 27.9rem;
 	}
-	h2 {
+	.title h2 {
 		font-size: 1.2rem;
 		width: 7.3rem;
 		height: 2.6rem;
-	}
-	.title p {
-		font-size: 1.2rem;
 	}
 
 	h1 {
